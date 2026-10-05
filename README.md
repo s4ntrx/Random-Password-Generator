@@ -1,4 +1,4 @@
-# passgen
+# Random Password Generator
 
 A desktop password generator built with Python and Tkinter. No third-party dependencies.
 
@@ -17,8 +17,8 @@ A desktop password generator built with Python and Tkinter. No third-party depen
 Requires Python 3.9+ with Tkinter (bundled on Windows and macOS; on Debian/Ubuntu: `sudo apt install python3-tk`).
 
 ```bash
-git clone https://github.com/<your-username>/password-generator.git
-cd password-generator
+git clone https://github.com/s4ntrx/Random-Password-Generator.git
+cd Random-Password-Generator
 python -m passgen
 ```
 
@@ -43,7 +43,3 @@ python -m unittest discover -s tests -v
 ## Notes
 
 The entropy figure is an upper-bound estimate (length x log2 of pool size). Forcing one character per set slightly reduces true entropy; at 12+ characters the difference is negligible.
-
-## License
-
-MIT
