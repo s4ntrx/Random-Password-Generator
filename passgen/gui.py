@@ -1,4 +1,4 @@
-"""Tkinter front end for the password generator."""
+
 from __future__ import annotations
 
 import tkinter as tk
