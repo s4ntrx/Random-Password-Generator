@@ -1,4 +1,4 @@
-"""Cryptographically secure password generation (uses `secrets`, not `random`)."""
+
 from __future__ import annotations
 
 import math
